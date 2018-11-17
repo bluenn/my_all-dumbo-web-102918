@@ -15,7 +15,7 @@ def my_all?(collection)
     #First we add yield keyword to yield each element of the block
     #Second we, save the the return values to an array which we declare
     #before the while loop
-    i += 1
+    i = i + 1
   end
     #Third, we want the final to be true or false for each element in
     #our block_return_values as that is what all? returns
