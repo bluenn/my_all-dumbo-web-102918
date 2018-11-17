@@ -11,11 +11,11 @@ def my_all?(collection)
   block_return_values = []
   while i < collection.length
     block_return_values.push(yield(collection[i]) #
-    #Three steps 
+    #Three steps
     #First we add yield keyword to yield each element of the block
-    #Second we, save the the return values to an array which we declare 
+    #Second we, save the the return values to an array which we declare
     #before the while loop
-    i = i + 1   
+    i = i + 1
   end
     #Third, we want the final to be true or false for each element in
     #our block_return_values as that is what all? returns
@@ -25,4 +25,3 @@ def my_all?(collection)
       true
   end
 end
-
