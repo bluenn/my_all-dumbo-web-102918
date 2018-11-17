@@ -10,7 +10,7 @@ def my_all?(collection)
   i = 0
   block_return_values = []
   while i < collection.length
-    block_return_values.push(yield(collection[i]) #
+    block_return_values << yield(collection[i]
     #Three steps
     #First we add yield keyword to yield each element of the block
     #Second we, save the the return values to an array which we declare
